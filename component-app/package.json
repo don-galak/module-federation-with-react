@@ -7,8 +7,8 @@
       "build": "rspack build --config rspack.config.js ",
       "legacy:build": "webpack --config webpack.config.js --stats=minimal",
       "serve": "serve dist -p 3001",
-      "start": "concurrently \"yarn build\" \"yarn serve\"",
-      "legacy:start": "concurrently \"yarn legacy:build\" \"yarn serve\""
+      "start": "concurrently \"pnpm run build\" \"pnpm run serve\"",
+      "legacy:start": "concurrently \"pnpm run legacy:build\" \"pnpm run serve\""
     },
     "keywords": [],
     "author": "",

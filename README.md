@@ -24,7 +24,7 @@ It is a pure host.
 
 # how to use
 
-- `pnpm install`
-- `pyarn start`
+- `pnpm install` in all apps
+- `pnpm start` in root
 
 after all the commands done, open your browser at `http://localhost:3002`, open the dev-tool's network tab to see resources loading details

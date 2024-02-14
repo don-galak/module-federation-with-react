@@ -4,15 +4,17 @@
     "private": true,
     "version": "0.0.0",
     "scripts": {
-      "start": "pnpm --filter complete-react-case_* --parallel start",
-      "build": "pnpm --filter complete-react-case_* --parallel build",
-      "legacy:build": "pnpm --filter complete-react-case_* --parallel legacy:build",
-      "legacy:start": "pnpm --filter complete-react-case_* --parallel legacy:start"
+        "start": "pnpm --filter complete-react-case_* --parallel start",
+        "build": "pnpm --filter complete-react-case_* --parallel build",
+        "legacy:build": "pnpm --filter complete-react-case_* --parallel legacy:build",
+        "legacy:start": "pnpm --filter complete-react-case_* --parallel legacy:start"
     },
     "keywords": [],
     "author": "",
     "devDependencies": {
-      "wait-on": "7.2.0"
+        "wait-on": "7.2.0"
+    },
+    "dependencies": {
+        "pnpm": "^8.15.2"
     }
-  }
-  
+}
