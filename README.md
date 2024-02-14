@@ -24,7 +24,16 @@ It is a pure host.
 
 # how to use
 
-- `pnpm install` in all apps
+- `chmod u+x ./scripts/*`
+- `pnpm install:all`
 - `pnpm start` in root
 
 after all the commands done, open your browser at `http://localhost:3002`, open the dev-tool's network tab to see resources loading details
+
+# delete dist and node_module folders
+
+In root:
+- `./rmdists.sh`
+- `./rmnm.sh`
+
+They don't have any valuable or really useful use case. I just made them because I like to obsess over small scripts.
