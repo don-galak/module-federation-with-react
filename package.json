@@ -4,10 +4,10 @@
     "private": true,
     "version": "0.0.0",
     "scripts": {
-        "start": "pnpm --filter complete-react-case_* --parallel start",
-        "build": "pnpm --filter complete-react-case_* --parallel build",
-        "legacy:build": "pnpm --filter complete-react-case_* --parallel legacy:build",
-        "legacy:start": "pnpm --filter complete-react-case_* --parallel legacy:start",
+        "start": "pnpm --filter module-federation-with-react* --parallel start",
+        "build": "pnpm --filter module-federation-with-react* --parallel build",
+        "legacy:build": "pnpm --filter module-federation-with-react* --parallel legacy:build",
+        "legacy:start": "pnpm --filter module-federation-with-react* --parallel legacy:start",
         "install:all": "./scripts/install-all.sh",
         "clear:install": "./scripts/rmnm.sh && pnpm install:all"
     },

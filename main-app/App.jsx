@@ -36,7 +36,7 @@ export default class App extends React.Component {
         <Button type="primary" />
         <Button type="warning" />
         <h4>Dialog:</h4>
-        <button onClick={this.handleClick}>click me to open Dialog</button>
+        <button onClick={this.handleClick}>open Dialog</button>
         <Dialog switchVisible={this.handleSwitchVisible} visible={this.state.dialogVisible} />
         <h4>hover me please!</h4>
         <ToolTip content="hover me please" message="Hello,world!" />
